@@ -1,0 +1,11 @@
+body{
+    background: url("234.jpg")
+                         no-repeat  
+                         center
+                         fixed;
+      background-size: cover;}
+      #bottom {
+        display: flex;
+        height: 88px;
+        align-items: center;
+      }
