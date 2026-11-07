@@ -1,125 +1,222 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blood Donation Site</title>
-    <link rel="stylesheet" href="css/style.css">
-    <!--icon-->
-    <link rel="shortcut icon" href="img/blood_08-01.png"/>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BloodBank — a social initiative</title>
+<meta name="description" content="Learn who can donate blood in India, what happens on the day, which blood groups match, and find voluntary donors near you.">
+<meta name="theme-color" content="#a3121a">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/script.js" defer></script>
 </head>
 <body>
-    <section class="main">
-        <!--navigation-->
-        <nav>
-            <!--logo-->
-            <a href="#" class="logo">
-                <img src="img/logo-02-01.png"/>
-            </a>
-            
-            <!--menu-->
-            <ul class="menu">
-                <li><a href="Register2.html">Register</a></li>
-                <li><a href="sl.html">Why Donate Blood</a></li>
-                <li><a href="dona.html">Who Can Give Blood</a></li>
-                <li><a href="refer page.html">Refer a Friend</a></li>
-                <li><a href="contacthtml.html">Contact Us</a></li>
-                <li><a href="Team_1.html">Team</a></li>
-            </ul>
-        </nav>
+<a class="skip" href="#main">Skip to content</a>
 
-        <!--main-content-->
-        <div class="home-content">
+<header class="nav" id="top">
+  <div class="container nav-in">
+    <a class="logo" href="#top" aria-label="BloodBank home">
+      <svg viewBox="0 0 32 32" width="32" height="32" aria-hidden="true"><path d="M16 3s10 10.6 10 17.4A10 10 0 0 1 6 20.4C6 13.6 16 3 16 3z" fill="currentColor"/><path d="M14.6 14h2.8v4.1h4.1v2.8h-4.1V25h-2.8v-4.1h-4.1v-2.8h4.1z" fill="#fff"/></svg>
+      <span>BloodBank<small>A social initiative</small></span>
+    </a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="menu"><span class="sr">Menu</span><i></i></button>
+    <nav id="menu" aria-label="Main">
+      <a href="#process">The process</a>
+      <a href="#eligibility">Who can give</a>
+      <a href="#match">Blood groups</a>
+      <a href="#why">Why donate</a>
+      <a href="#team">Team</a>
+      <a class="btn btn-sm" href="https://rakt-setugov.netlify.app/find" data-app>Find a donor</a>
+    </nav>
+  </div>
+</header>
 
-            
-            <!--text-->
-            <div class="home-text">
-                <h1>The Blood Donation Process</h1>
-                <p>When it’s time to donate, here’s what will happen:
-                    You’ll go into a donor room where you’ll lie down on a cot.
-                    A phlebotomist (an employee who draws blood) will clean your arm and insert a new, sterile needle into your vein. This takes just a few seconds, and it can feel like a quick pinch.
-                    You’ll donate about 1 pint (one unit) of blood. The process should take less than 10 minutes. But if you’re donating platelets, red cells, or plasma by apheresis, the process can take much longer: up to 2 hours.
-                    When you’re done, you’ll raise your donation arm and put a little bit of pressure on it, which helps your blood clot. Then they’ll put an adhesive strip on your arm.</p>
-            <!--login-btn-->
-            <a href="Find.html" class="main-login">Find a Donor</a>
-            </div>
+<main id="main">
 
-            <!--img-->
-            <div class="home-img">
-                <img src="img/webimg1.png"/>
-            </div>
-        </div>
-        <!--timing------------------->
-        <div class="timing">
-            <!--normal-time-->
-            <div class="normal-time">
-                <h3>Donating Hours</h3>
-                <p>Monday - Saturday <font>8:00 AM - 9:00 PM</font> IST</p>
-            </div>
-            <!--normal-contact-->
-            <div class="normal-number">
-                <h3>Do you need some help?, Just make a call<br/>We are here</h3>
-                <p>Call <font>+91 123456789</font> 24/7 </p>
-            </div>
-        </div>
-        <!--arrow-->
-        <div class="arrow"></div>
-        <span class="scroll">Scroll</span>
-    </section>
-    <!--services----------------------->
-    <section class="services">
-        <!--heading----------->
-        <div class="services-heading">
-            <h2>Some more things about BloodBank.com</h2>
-        </div>
-        <!--box-container----------------->
-        <div class="box-container">
-            <!--box-1-------->
-            <div class="box">
-                <img src="img/box1.png">
-                <font>Health History</font>
-                <p>You’ll answer a few questions about your health history and places you’ve traveled, during a private and confidential interview.
-                We’ll check your temperature, pulse, blood pressure and hemoglobin level.</p>
-                
-            </div>
-            <!--box-2-------->
-            <div class="box">
-                <img src="img/Untitled-1.png">
-                <font>Your Donation</font>
-                <p>A whole blood donation takes about 8-10 minutes, during which you’ll be seated comfortably or lying down.</p>
-                
-            </div>
-            <!--box-3-------->
-            <div class="box">
-                <img src="img/2690216.png">
-                <font>Refreshment and Recovery</font>
-                <p>You’ll leave after 10-15 minutes and continue your normal routine.
-                 Enjoy the feeling of accomplishment knowing you are helping to save lives.</p>
-                
-            </div>
-            <!--box-4-------->
-            <div class="box">
-                <img src="img/5287102.png">
-                <font>Save Lives</font>
-                <p>You should know that Hospitals everywhere always need donated blood. In fact, each year blood transfusions help save 4.5 million lives.</p>
-                
-            </div>
-            <!--box-1-------->
-            <div class="box">
-                <font>Give Feedback</font>
-                <p>You can write us by following the below link</p>
-                <!--btn--------->
-                <a href="feedback.html">Click Here</a>
-            </div>
-        </div>
-    </section>
-    <!--footer------------->
-    <footer>
-        <a href="#">Students of K20KP, Group1; .</a>
-        <p> © Tamojeet Kuila & Team [all rights reserved 😂 ]</p>
-    </footer>
-  
-  
+<!-- HERO -->
+<section class="hero">
+  <div class="container hero-in">
+    <div class="hero-copy">
+      <p class="eyebrow">Voluntary blood donation · India</p>
+      <h1>Ten minutes of your time can give someone <em>a lifetime.</em></h1>
+      <p class="lead">Learn who can donate, what happens on the day, and which blood groups match — then find a willing donor near you, or become one.</p>
+      <div class="cta-row">
+        <a class="btn" href="https://rakt-setugov.netlify.app/find" data-app>Find a donor near you</a>
+        <a class="btn btn-ghost" href="https://rakt-setugov.netlify.app/register" data-app>Become a donor</a>
+      </div>
+      <p class="hint">Need blood urgently? First check stock at government blood banks on <a href="https://eraktkosh.mohfw.gov.in/" target="_blank" rel="noopener">e-RaktKosh</a>. Ambulance: <a href="tel:108">108</a>.</p>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <svg viewBox="0 0 420 420">
+        <defs>
+          <radialGradient id="g1" cx="40%" cy="35%" r="70%"><stop offset="0" stop-color="#e2353e"/><stop offset="1" stop-color="#8f0f16"/></radialGradient>
+        </defs>
+        <circle cx="210" cy="220" r="180" fill="var(--blush)"/>
+        <circle cx="210" cy="220" r="132" fill="none" stroke="var(--line)" stroke-width="2" stroke-dasharray="4 10"/>
+        <path class="drop" d="M210 70s96 100 96 166a96 96 0 0 1-192 0c0-66 96-166 96-166z" fill="url(#g1)"/>
+        <path d="M172 206c-10 14-12 30-6 44" fill="none" stroke="#fff" stroke-opacity=".45" stroke-width="10" stroke-linecap="round"/>
+        <polyline class="pulse" points="70,262 150,262 170,226 192,300 214,236 230,262 350,262" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+        <g class="chip" transform="translate(300 96)"><rect width="88" height="40" rx="20" fill="var(--card)" stroke="var(--line)"/><text x="44" y="26" text-anchor="middle">O−</text></g>
+        <g class="chip" transform="translate(26 120)"><rect width="88" height="40" rx="20" fill="var(--card)" stroke="var(--line)"/><text x="44" y="26" text-anchor="middle">A+</text></g>
+        <g class="chip" transform="translate(316 330)"><rect width="88" height="40" rx="20" fill="var(--card)" stroke="var(--line)"/><text x="44" y="26" text-anchor="middle">AB+</text></g>
+        <g class="chip" transform="translate(40 340)"><rect width="88" height="40" rx="20" fill="var(--card)" stroke="var(--line)"/><text x="44" y="26" text-anchor="middle">B−</text></g>
+      </svg>
+    </div>
+  </div>
+  <div class="container">
+    <ul class="stats">
+      <li><b>Up to 3</b><span>patients helped by one donation, once it's split into components</span></li>
+      <li><b>8–10 min</b><span>for the donation itself — about an hour door to door</span></li>
+      <li><b>90 / 120</b><span>days to wait between donations for men / women</span></li>
+      <li><b>14 June</b><span>is World Blood Donor Day</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process" class="section">
+  <div class="container">
+    <p class="eyebrow">What happens on the day</p>
+    <h2>The donation process, step by step</h2>
+    <ol class="steps">
+      <li><span class="num">1</span><h3>Register &amp; health history</h3><p>A short, private interview about your health, medicines and recent travel. Bring a photo ID.</p></li>
+      <li><span class="num">2</span><h3>Mini check-up</h3><p>Staff check your haemoglobin, pulse, blood pressure and temperature to make sure donating is safe for you.</p></li>
+      <li><span class="num">3</span><h3>The donation</h3><p>You lie back on a cot. A sterile, single-use needle collects about 350–450 ml of blood in 8–10 minutes. It feels like a quick pinch.</p></li>
+      <li><span class="num">4</span><h3>Rest &amp; refreshments</h3><p>Relax for 10–15 minutes with a drink and a snack, then carry on with your day. Drink extra fluids and skip heavy exercise until tomorrow.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ELIGIBILITY -->
+<section id="eligibility" class="section alt">
+  <div class="container">
+    <p class="eyebrow">Who can give blood</p>
+    <h2>Basic eligibility in India</h2>
+    <p class="sub">Based on the National Blood Transfusion Council (NBTC) donor-selection guidelines. The blood bank always does the final check.</p>
+    <div class="criteria">
+      <div><b>18–65</b><span>years of age</span></div>
+      <div><b>≥ 45 kg</b><span>body weight</span></div>
+      <div><b>≥ 12.5 g/dL</b><span>haemoglobin</span></div>
+      <div><b>60–100</b><span>pulse, regular</span></div>
+      <div><b>100–140/60–90</b><span>blood pressure (mm Hg)</span></div>
+      <div><b>No fever</b><span>normal body temperature</span></div>
+    </div>
+
+    <div class="two">
+      <div class="checker card" id="checker">
+        <h3>Quick check: can I donate today?</h3>
+        <p class="muted">Answer six questions. Nothing is saved or sent anywhere.</p>
+        <form>
+          <fieldset><legend>Are you between 18 and 65 years old?</legend><label><input type="radio" name="q1" value="y"> Yes</label><label><input type="radio" name="q1" value="n"> No</label></fieldset>
+          <fieldset><legend>Do you weigh at least 45 kg?</legend><label><input type="radio" name="q2" value="y"> Yes</label><label><input type="radio" name="q2" value="n"> No</label></fieldset>
+          <fieldset><legend>Are you feeling well today — no fever, cold or flu?</legend><label><input type="radio" name="q3" value="y"> Yes</label><label><input type="radio" name="q3" value="n"> No</label></fieldset>
+          <fieldset><legend>Has it been at least 3 months (men) or 4 months (women) since you last gave blood?</legend><label><input type="radio" name="q4" value="y"> Yes / never donated</label><label><input type="radio" name="q4" value="n"> No</label></fieldset>
+          <fieldset><legend>No major surgery, blood transfusion, tattoo or piercing in the last 12 months?</legend><label><input type="radio" name="q5" value="y"> Correct</label><label><input type="radio" name="q5" value="n"> I've had one</label></fieldset>
+          <fieldset><legend>Not pregnant, breastfeeding, or given birth in the last 12 months?</legend><label><input type="radio" name="q6" value="y"> Correct / not applicable</label><label><input type="radio" name="q6" value="n"> Not correct</label></fieldset>
+          <div class="result" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+
+      <div class="defer">
+        <h3>When to wait before donating</h3>
+        <details open><summary>Until you feel better</summary><p>Cold, flu, sore throat, headache or general weakness.</p></details>
+        <details><summary>6 months</summary><p>Minor surgery, tooth extraction or other dental surgery.</p></details>
+        <details><summary>12 months</summary><p>Major surgery, receiving a blood transfusion, typhoid, or an endoscopy. Many blood banks also defer for 12 months after a tattoo or piercing.</p></details>
+        <details><summary>Women</summary><p>Not during menstruation, pregnancy or breastfeeding; wait 12 months after delivery and 6 months after an abortion.</p></details>
+        <details><summary>Not eligible</summary><p>Heart disease or a past heart attack, epilepsy, hepatitis, HIV, and some chronic conditions such as uncontrolled diabetes. Ask the blood bank's doctor if you're unsure.</p></details>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MATCH -->
+<section id="match" class="section">
+  <div class="container">
+    <p class="eyebrow">Blood groups</p>
+    <h2>Who can you give to — and receive from?</h2>
+    <p class="sub">Pick a blood group. This is for red cells / whole blood; plasma and platelets follow different rules.</p>
+    <div class="groups" role="radiogroup" aria-label="Blood group">
+      <button role="radio" aria-checked="false">O−</button><button role="radio" aria-checked="true">O+</button>
+      <button role="radio" aria-checked="false">A−</button><button role="radio" aria-checked="false">A+</button>
+      <button role="radio" aria-checked="false">B−</button><button role="radio" aria-checked="false">B+</button>
+      <button role="radio" aria-checked="false">AB−</button><button role="radio" aria-checked="false">AB+</button>
+    </div>
+    <div class="match-out">
+      <div class="card"><h3>Can give to</h3><div class="pills" id="giveTo"></div></div>
+      <div class="card"><h3>Can receive from</h3><div class="pills" id="getFrom"></div></div>
+    </div>
+    <p class="note" id="matchNote"></p>
+  </div>
+</section>
+
+<!-- WHY -->
+<section id="why" class="section alt">
+  <div class="container">
+    <p class="eyebrow">Why donate</p>
+    <h2>Blood can't be made in a factory</h2>
+    <div class="why-grid">
+      <div class="card big-fact">
+        <b>Demand is higher than supply</b>
+        <p>Accident victims, mothers in childbirth, children with thalassaemia, cancer and surgery patients all depend on donated blood. A 2019 study in <i>The Lancet Haematology</i> estimated that India had one of the largest blood shortfalls in the world. Regular voluntary donors are the most reliable way to close that gap.</p>
+      </div>
+      <div class="card"><b>It's safe</b><p>Every needle and bag is sterile and used once. You can't catch an infection from donating.</p></div>
+      <div class="card"><b>Your body refills fast</b><p>Fluid volume returns within a day or two; red cells are fully replaced over the following weeks.</p></div>
+      <div class="card"><b>It ends panic searches</b><p>When families scramble for "replacement donors" in an emergency, precious hours are lost. Registered voluntary donors fix that.</p></div>
+    </div>
+
+    <h3 class="myth-h">Myths vs facts</h3>
+    <div class="myths">
+      <div><p class="myth">"Donating makes you weak."</p><p class="fact">Healthy adults feel normal within hours. Eat, drink fluids and rest briefly — that's all.</p></div>
+      <div><p class="myth">"Vegetarians can't donate."</p><p class="fact">Diet doesn't matter — what matters is your haemoglobin, which is checked before you donate.</p></div>
+      <div><p class="myth">"It takes the whole day."</p><p class="fact">The donation takes about 10 minutes; the full visit is usually under an hour.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SHARE -->
+<section class="section share">
+  <div class="container share-in">
+    <div>
+      <h2>Know someone who'd donate?</h2>
+      <p>One message can add a donor to your area's list. Share this page with a friend, your college group or your family chat.</p>
+    </div>
+    <div class="share-btns">
+      <a class="btn btn-wa" id="shareWa" target="_blank" rel="noopener" href="https://wa.me/?text=">Share on WhatsApp</a>
+      <button class="btn btn-ghost light" id="shareCopy" type="button">Copy link</button>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section id="team" class="section">
+  <div class="container">
+    <p class="eyebrow">About this project</p>
+    <h2>Built by students, still growing</h2>
+    <p class="sub">BloodBank started in 2022 as a first web project by Group 1 of section K20KP at Lovely Professional University. In 2026 it grew into <a href="https://rakt-setugov.netlify.app" data-app>Rakt Setu</a> — a free, working donor registry for rural India in English, Hindi and Bengali.</p>
+    <ul class="team">
+      <li><span class="av">DS</span><b>Dev Sharma</b></li>
+      <li><span class="av">M</span><b>Mridul</b></li>
+      <li><span class="av">AK</span><b>Abhishek Kumar</b></li>
+      <li><span class="av">TK</span><b>Tamojeet Kuila</b><small>Built Rakt Setu (2026)</small></li>
+    </ul>
+    <ol class="timeline">
+      <li><b>2022</b><span>BloodBank v0 — a static HTML &amp; CSS demo site</span></li>
+      <li><b>2026</b><span>Redesigned site with eligibility checker and blood-group matcher</span></li>
+      <li><b>2026</b><span>Rakt Setu — live donor search, WhatsApp contact, privacy by design</span></li>
+    </ol>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container foot-in">
+    <p><b>In an emergency:</b> call <a href="tel:108">108</a> and check <a href="https://eraktkosh.mohfw.gov.in/" target="_blank" rel="noopener">e-RaktKosh</a> for blood-bank stock.</p>
+    <p class="muted">Health information here is general guidance based on NBTC donor-selection guidelines and is not medical advice. <a href="https://github.com/tamojeetK/Blood-Donation-Site" target="_blank" rel="noopener">Source on GitHub</a></p>
+  </div>
+</footer>
 </body>
 </html>
