@@ -1,4 +1,4 @@
-# BloodBank — a social initiative
+# BloodBank: a social initiative
 
 An information site about voluntary blood donation in India: who can donate, what happens on the day, which blood groups match, and why it matters. It links to [Rakt Setu](https://rakt-setugov.netlify.app), a live, free donor registry, so visitors can find a donor or sign up as one.
 

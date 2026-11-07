@@ -33,7 +33,7 @@
     out.innerHTML = '';
     if (no.length) {
       out.classList.add('no');
-      out.innerHTML = '<b>Not right now.</b> ' + no.map(function (a) { return reasons[a[0]]; }).join(' ') + ' Thank you for wanting to help — you can still <a href="#top" class="share-link">share this page</a> with someone who can donate.';
+      out.innerHTML = '<b>Not right now.</b> ' + no.map(function (a) { return reasons[a[0]]; }).join(' ') + ' Thank you for wanting to help. You can still <a href="#top" class="share-link">share this page</a> with someone who can donate.';
       var l = $('.share-link', out); l.addEventListener('click', function (e) { e.preventDefault(); $('.share').scrollIntoView({ behavior: 'smooth' }); });
     } else if (done) {
       out.classList.add('ok');
@@ -49,8 +49,8 @@
     'AB−': ['AB−', 'AB+'], 'AB+': ['AB+'],
   };
   var NOTES = {
-    'O−': 'O− is the universal red-cell donor — hospitals use it in emergencies when there is no time to test.',
-    'AB+': 'AB+ is the universal red-cell recipient — but can only give red cells to other AB+ patients.',
+    'O−': 'O− is the universal red-cell donor: hospitals use it in emergencies when there is no time to test.',
+    'AB+': 'AB+ is the universal red-cell recipient, but can only give red cells to other AB+ patients.',
   };
   function receiveFrom(g) { return Object.keys(GIVE).filter(function (d) { return GIVE[d].indexOf(g) > -1; }); }
   function pills(el, list) { el.innerHTML = ''; list.forEach(function (g) { var s = document.createElement('span'); s.textContent = g; el.appendChild(s); }); }
