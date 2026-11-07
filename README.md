@@ -2,6 +2,8 @@
 
 An information site about voluntary blood donation in India: who can donate, what happens on the day, which blood groups match, and why it matters. It links to [Rakt Setu](https://rakt-setugov.netlify.app), a live, free donor registry, so visitors can find a donor or sign up as one.
 
+**Full project documentation:** [docs/Rakt-Setu-and-BloodBank-Project-Documentation.pdf](docs/Rakt-Setu-and-BloodBank-Project-Documentation.pdf), covering this site and Rakt Setu.
+
 **Features**
 - Step-by-step guide to the donation process
 - Eligibility criteria based on India's NBTC donor-selection guidelines, plus a 6-question "Can I donate today?" checker that runs entirely in the browser
